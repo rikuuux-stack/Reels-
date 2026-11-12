@@ -1,0 +1,145 @@
+{
+  "title": "フランス人はなぜ*デモ*に行くの？",
+  "source": "franceinfo（2026年10月）",
+  "source_url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/la-mairie-sera-reconstruite-ecrit-sebastien-lecornu-au-maire-de-limoges-au-lendemain-de-l-incendie-qui-a-detruit-l-hotel-de-ville_8242864.html",
+  "style": {
+    "font": "IPAGothic",
+    "keyword_size": 130
+  },
+  "segments": [
+    {
+      "text": "フランスのデモ、「また暴れてる」って思った？",
+      "captions": [
+        "フランスのデモ",
+        "「また暴れてる」",
+        "って思った？"
+      ],
+      "visual": "stock",
+      "query": "Paris protest crowd street"
+    },
+    {
+      "text": "10月、物価高と教育をめぐって、全国でデモがありました。",
+      "captions": [
+        "10月、物価高と",
+        "教育をめぐって",
+        "全国でデモが",
+        "ありました"
+      ],
+      "visual": "stock",
+      "query": "France demonstration students banners"
+    },
+    {
+      "text": "一部が暴徒化して、リモージュの市庁舎が燃えました。",
+      "captions": [
+        "一部が暴徒化して",
+        "リモージュの",
+        "市庁舎が",
+        "燃えました"
+      ],
+      "visual": "typo",
+      "keyword": "リモージュ\n市庁舎 炎上"
+    },
+    {
+      "text": "東京のデモは許可制。でもフランスは届け出だけ。デモは市民の権利なんです。",
+      "captions": [
+        "東京のデモは許可制",
+        "でもフランスは",
+        "届け出だけ",
+        "デモは市民の",
+        "権利なんです"
+      ],
+      "visual": "typo",
+      "keyword": "許可制\nvs\n届け出"
+    },
+    {
+      "text": "ここからは僕の意見。",
+      "captions": [
+        "ここからは",
+        "僕の意見"
+      ],
+      "visual": "typo",
+      "keyword": "ここから\n僕の意見"
+    },
+    {
+      "text": "暴力は正しくない。でも、警察の暴力も見てほしい。",
+      "captions": [
+        "暴力は正しくない",
+        "でも、警察の暴力も",
+        "見てほしい"
+      ],
+      "visual": "typo",
+      "keyword": "警察の暴力も"
+    },
+    {
+      "text": "黄色いベスト運動では、24人が片目を失ったと、アムネスティが報告しています。",
+      "captions": [
+        "黄色いベスト運動では",
+        "24人が片目を失った",
+        "と、アムネスティが",
+        "報告しています"
+      ],
+      "visual": "typo",
+      "keyword": "24人が\n片目を失った"
+    },
+    {
+      "text": "モンペリエに2年住んで、友達との会話はほぼ政治。",
+      "captions": [
+        "モンペリエに",
+        "2年住んで",
+        "友達との会話は",
+        "ほぼ政治"
+      ],
+      "visual": "file",
+      "path": "montpellier.jpg"
+    },
+    {
+      "text": "文句も多いけど、けっこう筋が通ってる。",
+      "captions": [
+        "文句も多いけど",
+        "けっこう",
+        "筋が通ってる"
+      ],
+      "visual": "stock",
+      "query": "friends debating cafe terrace France"
+    },
+    {
+      "text": "日本の友達とは、政治の話ってあんまりしないよね。",
+      "captions": [
+        "日本の友達とは",
+        "政治の話って",
+        "あんまりしないよね"
+      ],
+      "visual": "stock",
+      "query": "Tokyo friends talking izakaya"
+    },
+    {
+      "text": "僕も2024年のフランスの選挙で、自分の中の偏見に気づきました。",
+      "captions": [
+        "僕も2024年の",
+        "フランスの選挙で",
+        "自分の中の偏見に",
+        "気づきました"
+      ],
+      "visual": "typo",
+      "keyword": "偏見"
+    },
+    {
+      "text": "フランスで、自分で考えることを覚えたんです。",
+      "captions": [
+        "フランスで",
+        "自分で考えることを",
+        "覚えたんです"
+      ],
+      "visual": "typo",
+      "keyword": "自分で考える"
+    },
+    {
+      "text": "あなたはどう思う？",
+      "captions": [
+        "あなたはどう思う？"
+      ],
+      "visual": "typo",
+      "keyword": "あなたは\nどう思う？"
+    }
+  ]
+}

@@ -338,6 +338,7 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Cap,{font},{st['caption_size']},{white},{white},&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,7,2,5,60,60,0,1
 Style: Key,{font},{st['keyword_size']},{acc},{acc},&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,9,4,5,40,40,0,1
 Style: Title,{font},{st['title_size']},{white},{white},&HE6000000,&HE6000000,-1,0,0,0,100,100,0,0,3,18,0,5,60,60,0,1
+Style: TitleTxt,{font},{st['title_size']},{white},{white},&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,60,60,0,1
 Style: Src,{font},30,&H00DDDDDD,&H00DDDDDD,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,3,0,5,60,60,0,1
 
 [Events]
@@ -350,8 +351,11 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         ev.append(f"Dialogue: {layer},{ass_time(a)},{ass_time(b)},{style},,0,0,0,,{text}")
 
     if script.get("title"):
-        add(0, total, "Title", f"{{\\pos({W // 2},{st['title_y']})\\fad(200,0)}}"
-            + markup(script["title"], st), 2)
+        # boîte d'un seul tenant (texte invisible), puis le texte coloré par-dessus :
+        # sinon chaque morceau *accentué* a sa propre boîte et les bords se chevauchent
+        tpos = f"{{\\pos({W // 2},{st['title_y']})\\fad(200,0)"
+        add(0, total, "Title", tpos + "\\1a&HFF&}" + clean(script["title"]), 2)
+        add(0, total, "TitleTxt", tpos + "}" + markup(script["title"], st), 3)
     if script.get("source"):
         add(0, total, "Src", f"{{\\pos({W // 2},{st['title_y'] + st['title_size'] + 40})}}"
             f"出典：{script['source']}", 2)
