@@ -85,8 +85,8 @@
         "友達との会話は",
         "ほぼ政治"
       ],
-      "visual": "stock",
-      "query": "Montpellier Place de la Comedie"
+      "visual": "file",
+      "path": "montpellier.jpg"
     },
     {
       "text": "文句も多いけど、けっこう筋が通ってる。",
